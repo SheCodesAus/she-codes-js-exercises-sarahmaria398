@@ -28,9 +28,17 @@ function subtract(value) {
 }
 console.log(subtract)
 
+
 function multiply(value) {
     let counter = document.getElementById("number")
-    let newValue = parseInt(counter.innerHTML) - value
+    let newValue = parseInt(counter.innerHTML) * value
     counter.innerHTML = newValue
 }
-console.log(subtract)
+console.log(multiply)
+
+function divide(value) {
+    let counter = document.getElementById("number")
+    let newValue = parseInt(counter.innerHTML) / value
+    counter.innerHTML = newValue
+}
+console.log(divide)
